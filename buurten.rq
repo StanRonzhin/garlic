@@ -1,6 +1,8 @@
 #+ summary: CBS data for buurten
 #+ tags: 
 #+   - buurtNaam
+#+ enumerate:		
+#+   - woonplaatsNaam		
 
 prefix brt: <http://brt.basisregistraties.overheid.nl/def/top10nl#>
 prefix cbs: <https://data.pdok.nl/cbs/def/>
