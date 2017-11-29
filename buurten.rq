@@ -1,3 +1,6 @@
+#+ summary: Events a person attended
+#+ tags: 
+#+   - event
 
 prefix brt: <http://brt.basisregistraties.overheid.nl/def/top10nl#>
 prefix cbs: <https://data.pdok.nl/cbs/def/>
