@@ -1,0 +1,10 @@
+
+#+ summary: Events a person attended
+#+ tags: 
+#+   - event
+
+SELECT ?s ?p ?o
+WHERE {
+?S ?p ?o
+}
+LIMIT 100
