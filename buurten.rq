@@ -9,7 +9,7 @@ prefix cbs: <https://data.pdok.nl/cbs/def/>
 prefix geo: <http://www.opengis.net/ont/geosparql#>
 prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
-select ?buurtNaam ?cafeBuurt ?wkt {
+select ?buurtNaam (xsd:decimal(?cafeBuurt) as ?cafeBuurt) ?wkt {
   service <https://data.pdok.nl/sparql> {
     ?registratiefGebied brt:naamOfficieel ?_woonplaatsNaam_nl ;
                         brt:nummer ?registratiefGebiedCode
