@@ -24,4 +24,3 @@ select ?buurtNaam ?cafeBuurt ?wkt {
            cbs:BU_NAAM ?buurtNaam .
   }
 }
-limit 100
