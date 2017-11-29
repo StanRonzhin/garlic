@@ -11,8 +11,8 @@ prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
 select ?buurtNaam ?cafeBuurt ?wkt {
   service <https://data.pdok.nl/sparql> {
-    bind ("Apeldoorn"@nl as ?_woonplaatsNaam)
-    ?registratiefGebied brt:naamOfficieel ?_woonplaatsNaam ;
+    bind ("Apeldoorn"@nl as ?_woonplaatsNaam_nl)
+    ?registratiefGebied brt:naamOfficieel ?_woonplaatsNaam_nl ;
                         brt:nummer ?registratiefGebiedCode
   }
   graph <https://data.pdok.nl/cbs/2015> {
